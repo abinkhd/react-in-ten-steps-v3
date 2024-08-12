@@ -1,0 +1,31 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.nav-style{
+    list-style: none;
+    padding:0px;
+    display: grid;
+    justify-content: center;
+}
+
+.nav-style a{
+    text-decoration: none;
+}
+.nav-style li{
+    background-color: white;
+    margin:10px 0px 10px 0px;
+    color:red;
+    font-weight: bold;
+    text-align: left;
+    width:100%;
+    padding:10px;
+}
+
+.nav-style li:hover{
+    box-shadow: 2px 2px 0px skyblue;
+}
+
+.nav-title{
+    color:white;
+    text-align: center;
+    margin:10px;
+}
